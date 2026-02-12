@@ -27,7 +27,7 @@ app.use("/api/product",productRoutes)
 app.use("/api/cart",cartRoutes)
 app.use("/api/order",orderRoutes)
 
-
+app.get("/" , (req,res)=>{ res.send("Hello From Server") }) 
 
 
 app.listen(port,()=>{
