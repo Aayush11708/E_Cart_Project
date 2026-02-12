@@ -9,13 +9,13 @@ import ShopContext from './context/ShopContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
-  <AuthContext>
-    <UserContext>
-      <ShopContext>
-    <App />
-    </ShopContext>
-    </UserContext>
+    <AuthContext>
+      <UserContext>
+        <ShopContext>
+          <App />
+        </ShopContext>
+      </UserContext>
     </AuthContext>
-</BrowserRouter>
-  
+  </BrowserRouter>
+
 )
